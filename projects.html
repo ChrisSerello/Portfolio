@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Christian Serello - PROJETOS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400&family=Victor+Mono:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="Novo Projeto (2).jpg">
+    <style>
+        body {
+            font-family: 'Teko', sans-serif;
+            font-family: 'Victor Mono', monospace;
+            background-color: #222;
+            margin: 0;
+            padding: 0;
+        }
+        #tooltip {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: fff;
+            padding: 20px;
+        }
+
+        #tooltip .icon {
+            font-size: 3rem;
+            color: #fff;
+            margin: 10px;
+            transition: transform .2s;
+        }
+
+        #tooltip .icon:hover {
+            transform: scale(1.2);
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            background-color: #222;
+            padding: 10px 0;
+        }
+
+        .footer p {
+            margin: 0;
+            font-size: 1rem;
+        }
+        
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .project {
+            margin: 15px;
+            width: 300px;
+            height: 300px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+            text-align: center;
+            transition: transform .2s;
+        }
+        
+        .project:hover {
+            transform: scale(1.05);
+        }
+        .project-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .logo {
+            width: 100px; /* Set the width and height according to your logo size */
+            height: 100px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-bottom: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div id='tooltip'>
+        <a class='icon' href='https://www.linkedin.com/in/christian-serello-moreno/' title='LinkedIn'><i class="fab fa-linkedin fa-2x"></i></a>
+        <a class='icon' href='https://www.instagram.com/' title='Instagram'><i class="fab fa-instagram fa-2x"></i></a>
+        <a class='icon' href='https://github.com/ChrisSerello' title='Github'><i class="fab fa-github fa-2x"></i></a>
+    </div>
+      <div class="projects">
+        <a class="project" href="http://127.0.0.1:5500/Jogo.html" target="Jogo">
+            <div class="project-content">
+                <div class="logo" style="background-image: url('7-conceitos-que-mudaram-a-história-dos-games.avif');"></div>
+                <h3>PROJETO JOGO-RPG</h3>
+                <p>Linguagem: JAVA</p>
+            </div>
+        </a>
+
+        <a class="project" href="http://127.0.0.1:5500/Criptografia.html" target="F1">
+            <div class="project-content">
+                <div class="logo" style="background-image: url('criptografia.jpg');"></div>
+                <h3>PROJETO CRIPTOGRAFIA</h3>
+                <p>Linguagem: PYTHON</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="footer">
+        <p>Portfolio | Christian Serello | email: christianserello55@gmail.com</p>
+    </div>
+</body>
+</html>

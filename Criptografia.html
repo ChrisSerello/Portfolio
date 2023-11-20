@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Criptografia</title>
+  <link rel="icon" type="image/png" href="img/icone.png">
+<!-- 
+Magazee Template 
+http://www.templatemo.com/tm-514-magazee
+-->
+  <!-- load CSS -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">    <!-- Google web font "Open Sans" -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">                                        <!-- https://getbootstrap.com/ -->
+  <link rel="stylesheet" href="css/templatemo-style.css">                                     <!-- Templatemo style -->
+
+  <script>
+    var renderPage = true;
+
+    if(navigator.userAgent.indexOf('MSIE')!==-1
+      || navigator.appVersion.indexOf('Trident/') > 0){
+        /* Microsoft Internet Explorer detected in. */
+        alert("Please view this in a modern browser such as Chrome or Microsoft Edge.");
+        renderPage = false;
+    }
+  </script>
+
+</head>
+
+<body>
+  <!-- Loader -->
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+  </div>
+
+ <div class="container">
+
+  <!-- 1st section -->
+  <section class="row tm-section tm-mb-30">
+    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0 text-center">
+      <img src="codigoPart-II.jpg" alt="Image" class="img-fluid">
+    </div>
+    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+      <div class="tm-flex-center p-5">
+        <div class="tm-flex-center tm-flex-col">
+          <h2 class="tm-align-left">Explicação determianaOpção</h2>
+          <p>O comando def inicia a definição de uma função, ela deve ser seguida do nome da função que é determinaOpção que não necessita de parâmetros. O input é uma função que permite com que você solicite uma informação ao usuario para que ele possa preencher e assim o programador tem os dados do usuario para usar. Já o .lower é responsavel em tranformar letra maiúscula em minúscula. O .split detecta cada caracter digitado e vai verificar se foi "c" ou "d".</p>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- 2nd section -->
+<section class="row tm-section tm-mb-30">
+  <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0 text-center">
+    <img src="codigoPart-II.jpg" alt="Image" class="img-fluid">
+  </div>
+  <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+    <div class="tm-flex-center p-5">
+      <div class="tm-flex-center tm-flex-col">
+        <h2 class="tm-align-left">Explicação determinaChave</h2>
+        <p>Aqui, temos que deixar int(input) porque iremos receber um número inteiro, no caso de 1 até 26. Não precisamos de um else porque se não recebermos o valor certo da chave, ele vai ficar no while, repetindo a mensagem.</p>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- 3rd Section -->
+<section class="row tm-section tm-mb-30">
+  <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0 text-center">
+    <img src="codigoPart-II.jpg" alt="Image" class="img-fluid">
+  </div>
+  <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+    <div class="tm-flex-center p-5">
+      <div class="tm-flex-center tm-flex-col">
+        <h2 class="tm-align-left">Explicação determinaMensagem</h2>
+        <p>O determinaMensagem é para descriptografar, colocaremos a posição da chave igual a 0 e multiplicaremos por -1, faremos o valor inverso da decriptografia. A variável "traduzida" é responsavel por traduzir a mensagem a ser criptografada.</p>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 4th Section -->
+<section class="row tm-section tm-mb-30">
+ <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8">
+  <div class="tm-flex-center pl-5 pr-5 pt-5 pb-5">
+    <div class="tm-md-flex-center">
+     <h2 class="mb-4 tm-text-color-primary">Função para criptografar e descriptografar</h2>
+     For letra in mensagem (para cada letra digitada na mensagem) - É a mensagem que vamos receber para criptografar. 
+      
+      O isAlpha verifica se a letra está presente no Alfabeto. E então num vai receber a ordem da letra (num = ord(letra). O número += vai receber o valor da chave. <p></p>
+      
+      Esse método ORD(LETRA) vai receber a letra e converter para número. <p></p>
+      
+      ILIF e ELIF logo após é para INCREMENTAR e CONVERTER letra maiúscula em minúscula e transformar letras Maior que Z em número e menores que A em número também. 
+      
+      Quando entrar no método CHAR ele vai converter tudo em Letra, para termos uma saída STR (STRING)</p>
+     
+   </div>
+ </div>
+</div>
+<div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 text-xl-right text-md-center text-center mt-5 mt-lg-0 pr-lg-0">
+ <img src="codigo2.png" alt="Image" class="img-fluid">
+</div>
+</section>
+
+<!-- 5th Section -->
+
+
+
+<!-- Footer -->
+  <p> Christian Serello | Projeto de Christian Serello!</p>
+  </div>
+</div>
+</div>
+<!-- load JS -->
+<script src="js/jquery-3.2.1.slim.min.js"></script>         <!-- https://jquery.com/ -->
+<script>
+
+  /* DOM is ready
+  ------------------------------------------------*/
+  $(function(){
+
+    if(renderPage) {
+      $('body').addClass('loaded');
+    }
+
+    $('.tm-current-year').text(new Date().getFullYear());  // Update year in copyright
+  });
+
+</script>
+
+</body>
+</html>
