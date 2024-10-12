@@ -1,4 +1,4 @@
-## Bem vindo ao meu site de Portfolio
+## Bem vindo ao meu site de Portfolio.
 
 ## URL:
 
